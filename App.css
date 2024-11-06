@@ -1,0 +1,113 @@
+#root {
+  margin: 0 auto;
+  display: flex;
+}
+
+.mainDiv{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+header{
+  background-color: orange;
+  width:100%;
+  line-height: 1em;
+  text-align: center;
+  margin-right: 10em;
+}
+.menu{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 30em;
+  
+  align-items: center;
+}
+
+li{
+  list-style: none;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-right: 3em;
+}
+
+.product-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 68, 0, 0.855);
+  align-self: center;
+  margin-left: 1em;
+}
+
+.product-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2em;
+  width: 100%;
+}
+
+
+.product-card {
+  color: black;
+  border: 1px solid  rgba(255, 68, 0, 0.855);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 600px;
+  margin-bottom: 1em;
+}
+.product-span {
+  padding-left: 1em;
+  width: 50%;
+  text-align: left;
+  margin-left: 4em;
+}
+
+.button-span{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin-right: 5em;
+  margin-top: 1em;
+}
+
+.custom-button{
+  background-color:  rgba(255, 68, 0, 0.855);
+  color: black;
+  padding: 7px 10px;
+  margin-top: 1.25em;
+}
+
+.button-centre{
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.add-product-button{
+  background-color:  rgba(255, 68, 0, 0.855);
+  color: black;
+  padding: 7px 10px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.offer-status-button{
+  background-color:  rgba(255, 68, 0, 0.855);
+  color: black;
+  padding: 10px 5px;
+  margin-top: 1.25em;
+}
